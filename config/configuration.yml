@@ -87,12 +87,12 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: "smtp.sendgrid.net" 
+      address: "smtp.mailgun.org" 
       port: 587
-      domain: "heroku.com"
+      domain: "eggheadcreative.com"
       authentication: :plain
-      user_name: 'app44238819@heroku.com'
-      password: "kcdhr2re9459"
+      user_name: 'devops@eggheadcreative.com'
+      password: "ehc@Adm1n"
 
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
