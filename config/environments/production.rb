@@ -20,6 +20,16 @@ RedmineApp::Application.configure do
   # Full error reports are disabled and caching is turned on
   config.action_controller.perform_caching = true
 
+ActionMailer::Base.smtp_settings = {
+  :address        => 'smtp.sendgrid.net',
+  :port           => '587',
+  :authentication => :plain,
+  :user_name      => ENV['SENDGRID_USERNAME'],
+  :password       => ENV['SENDGRID_PASSWORD'],
+  :domain         => 'ehc-delivery-staging.herokuapp.com'
+}
+ActionMailer::Base.delivery_method = :smtp
+
   # Enable serving of images, stylesheets, and javascripts from an asset server
   # config.action_controller.asset_host                  = "http://assets.example.com"
 
