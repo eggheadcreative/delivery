@@ -36,8 +36,8 @@
        port: 25
        authentication: :plain
        domain: 'heroku.com'
-       user_name: 'SENDGRID_USERNAME'
-       password: 'SENDGRID_PASSWORD'
+       user_name: 'app44238819@heroku.com'
+       password: 'kcdhr2re9459'
 
 # ==== SMTP server at example.com using PLAIN authentication
 #
