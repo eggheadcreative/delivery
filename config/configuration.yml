@@ -89,7 +89,7 @@ default:
     smtp_settings:
       address: "smtp.mailgun.org" 
       port: 587
-      domain: "eggheadcreative.com"
+      domain: "heroku`.com"
       authentication: :plain
       user_name: 'devops@eggheadcreative.com'
       password: "ehc@Adm1n"
