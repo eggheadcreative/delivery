@@ -87,9 +87,9 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: "smtp.mailgun.org" 
+      address: "smtp.mailgun.net" 
       port: 587
-      domain: "heroku`.com"
+      domain: "heroku.com"
       authentication: :plain
       user_name: 'devops@eggheadcreative.com'
       password: "ehc@Adm1n"
