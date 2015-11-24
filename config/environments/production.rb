@@ -21,12 +21,12 @@ RedmineApp::Application.configure do
   config.action_controller.perform_caching = true
 
 ActionMailer::Base.smtp_settings = {
-  :address        => 'smtp.sendgrid.net',
+  :address        => 'smtp.mailgun.org',
   :port           => '587',
   :authentication => :plain,
-  :user_name      => ENV['SENDGRID_USERNAME'],
-  :password       => ENV['SENDGRID_PASSWORD'],
-  :domain         => 'ehc-delivery-staging.herokuapp.com'
+  :user_name      => ENV['MAILGUN_USERNAME'],
+  :password       => ENV['MAILGUN_PASSWORD'],
+  :domain         => 'eggheadcreative.com'
 }
 ActionMailer::Base.delivery_method = :smtp
 
