@@ -87,9 +87,9 @@ default:
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: ehc-delivery-staging.herokuapp.com 
-      port: 25
-      domain: heroku.com
+      address: "smtp.sendgrid.net" 
+      port: 587
+      domain: "heroku.com"
       authentication: :plain
       user_name: 'app44238819@heroku.com'
       password: "kcdhr2re9459"
