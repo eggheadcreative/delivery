@@ -79,17 +79,20 @@
 
 
 # default configuration options for all environments
+
+
+
 default:
   # Outgoing emails configuration (see examples above)
   email_delivery:
     delivery_method: :smtp
     smtp_settings:
-      address: smtp.example.net
+      address: ehc-delivery-staging.herokuapp.com 
       port: 25
-      domain: example.net
-      authentication: :login
-      user_name: "redmine@example.net"
-      password: "redmine"
+      domain: heroku.com
+      authentication: :plain
+      user_name: 'app44238819@heroku.com'
+      password: "kcdhr2re9459"
 
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
