@@ -86,13 +86,13 @@ default:
   # Outgoing emails configuration (see examples above)
   email_delivery:
     delivery_method: :smtp
-    smtp_settings:
-      address: "smtp.mailgun.org" 
-      port: 587
-      domain: "eggheadcreative.com"
-      authentication: :plain
-      user_name: "postmaster@eggheadcreative.com"
-      password: "dfd6ee6a3680aaaba21516ca00e677ac"
+#    smtp_settings:
+#      address: "smtp.mailgun.org" 
+#      port: 587
+#      domain: "egg.com"
+#      authentication: :plain
+#      user_name: ""
+#      password: ""
 
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
