@@ -91,8 +91,8 @@ default:
       port: 587
       domain: "eggheadcreative.com"
       authentication: :plain
-      user_name: "devops@eggheadcreative.com" 
-      password: "ehc@Adm1n"
+      user_name: "postmaster@eggheadcreative.com"
+      password: "dfd6ee6a3680aaaba21516ca00e677ac"
 
   # Absolute path to the directory where attachments are stored.
   # The default is the 'files' directory in your Redmine instance.
