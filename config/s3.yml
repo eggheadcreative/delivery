@@ -11,9 +11,9 @@ production:
   thumb_folder:
 
 development:
-  access_key_id:
-  secret_access_key:
-  bucket:
+  access_key_id: ENV['S3-ACCESS_KEY']
+  secret_access_key: ENV['S3_SECRET_KEY']
+  bucket: ENV['S3_BUCKET_NAME']
   folder:
   endpoint:
   secure:
