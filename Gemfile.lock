@@ -31,6 +31,11 @@ GEM
     arel (3.0.3)
     awesome_nested_set (2.1.6)
       activerecord (>= 3.0.0)
+    aws-sdk (1.66.0)
+      aws-sdk-v1 (= 1.66.0)
+    aws-sdk-v1 (1.66.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     bugsnag (2.8.12)
       json (~> 1.7, >= 1.7.7)
     builder (3.0.0)
@@ -133,6 +138,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-jdbc-adapter (~> 1.3.2)
   awesome_nested_set (= 2.1.6)
+  aws-sdk (~> 1)
   bugsnag
   builder (= 3.0.0)
   capybara (~> 2.1.0)
