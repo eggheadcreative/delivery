@@ -10,6 +10,9 @@ gem "mime-types"
 gem "awesome_nested_set", "2.1.6"
 gem "bugsnag"
 gem "mysql2"
+gem "aws-sdk", "~>1"
+
+
 # Optional gem for LDAP authentication
 group :ldap do
   gem "net-ldap", "~> 0.3.1"
