@@ -1,29 +1,38 @@
-production:
-  access_key_id:
-  secret_access_key:
-  bucket:
-  folder:
-  endpoint:
-  secure:
-  private:
-  expires:
-  proxy:
-  thumb_folder:
+#production:
+#  access_key_id:
+#  secret_access_key:
+#  bucket:
+#  folder:
+#  endpoint:
+#  secure:
+#  private:
+#  expires:
+#  proxy:
+#  thumb_folder:
 
-development:
-  access_key_id:
-  secret_access_key:
-  bucket:
-  folder:
-  endpoint:
-  secure:
-  private:
-  expires:
-  proxy:
-  thumb_folder:
+#development:
+#  access_key_id:
+#  secret_access_key:
+#  bucket:
+#  folder:
+#  endpoint:
+#  secure:
+#  private:
+#  expires:
+#  proxy:
+#  thumb_folder:
 
 # Uncomment this to run plugin tests with standart redmine script
 # test:
 #   access_key_id:
 #   secret_access_key:
 #   bucket:
+
+
+# Uncomment this to run plugin tests with standart redmine script
+ production:
+   access_key_id: 'AKIAJMA77ZQWGVNLGROA'
+   secret_access_key: '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'
+   bucket: 'ehc.delivery.data'
+   endpoint: 's3-ap-southeast-1.amazonaws.com'
+
