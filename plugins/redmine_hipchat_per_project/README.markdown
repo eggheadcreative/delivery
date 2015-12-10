@@ -16,12 +16,11 @@ Setup
 
 You can turn off the messages by leaving at least one of the two text fields blank.
 
-Plugin Info
+Compatibility
 -----------
 
-This version of the plugin is compatible with Redmine 1.4 .
-If you're using Redmine 2.x, check out the [redmine2 branch](https://github.com/digitalnatives/redmine_hipchat_per_project/tree/redmine2).
-
+This version of the plugin is compatible with Redmine 2.x (tested with 2.3).
+If you're using Redmine 1.4, check out the [master branch](https://github.com/digitalnatives/redmine_hipchat_per_project).
 
 Authors
 -------
